@@ -1,0 +1,61 @@
+
+body{
+  background: #292B2E;
+  /* background: rgb(177, 112, 112); */
+}
+
+h4{
+    color: rgb(247, 126, 104);
+    font-weight: bolder;
+    text-decoration: none;
+}
+.container-post{
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.subforum{
+    margin-top:20px;
+}
+.subforum-title{
+    background-color:#292B2E;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin:4px;
+}
+.subforum-row{
+    display: grid;
+    grid-template-columns: 67% 13% 20%;
+}
+
+.subforum-column{
+    padding: 30px;
+    margin:4px;
+    border-radius: 5px;
+    background-color:#111314;
+    color: #fff;
+}
+
+.subforum-description *{
+    margin-block: 0;
+}
+.clicktogiveanswer:hover{
+    color:white!important; 
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subforum-answer a{
+    text-align: center;
+    color: rgb(247, 126, 104);
+}
+.subforum-info {
+    padding-top:50px;
+}
+
+.subforum-devider{
+    background-color: black;  
+}
